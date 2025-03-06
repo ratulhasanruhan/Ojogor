@@ -11,7 +11,7 @@ Ojogor is a unique, fun, and sarcastic Bengali programming language designed to 
 
 ## Installation
 1. **Download Ojogor:**
-Download the Ojogor installer from the releases page.
+Download the Ojogor installer. [Click here](https://github.com/ratulhasanruhan/Ojogor/raw/refs/heads/main/Output/Ojogor_Installer.exe) for download.
 
 
 2. **Run the Installer:**
