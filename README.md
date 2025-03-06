@@ -41,4 +41,4 @@ For a detailed guide on using Ojogor, including syntax, functions, and more, ple
 5. Open a pull request.
 
 ## License
-Ojogor is licensed under the MIT License. See the LICENSE file for more information.
+Ojogor is licensed under the MIT License. See the [LICENSE](https://github.com/ratulhasanruhan/Ojogor/blob/main/LICENSE) file for more information.
