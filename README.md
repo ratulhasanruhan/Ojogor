@@ -4,7 +4,7 @@
 Ojogor is a unique, fun, and sarcastic Bengali programming language designed to bring humor to coding. It allows you to write code in Bengali using natural language syntax, making programming more fun and accessible for Bengali speakers.
 
 ## Features
-- Bengali Syntax: Write your code using Bengali keywords like দেখাও, যদি, ফাংশন, and more!
+- Bengali Syntax: Write your code using Bengali keywords like `দেখাও, যদি, ফাংশন,` and more!
 - Fun & Sarcastic: Ojogor is a language with a twist, making coding less boring.
 - User-Friendly: Simple syntax for both beginners and advanced programmers.
 - Documentation: Full documentation is available to help you get started with Ojogor.
