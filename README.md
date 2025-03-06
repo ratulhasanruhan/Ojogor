@@ -40,5 +40,5 @@ For a detailed guide on using Ojogor, including syntax, functions, and more, ple
 4. Push to the branch (`git push origin feature-xyz`).
 5. Open a pull request.
 
-License
+## License
 Ojogor is licensed under the MIT License. See the LICENSE file for more information.
