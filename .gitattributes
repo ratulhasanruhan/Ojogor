@@ -1,0 +1,3 @@
+*.og linguist-language=Ojogor  
+*.py linguist-detectable=false  
+*.cpp linguist-detectable=false  
