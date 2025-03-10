@@ -28,13 +28,22 @@ return_statement: "রিটার্ন" expression
 condition: expression comparison_op expression
 comparison_op: "ছোট" | "বড়" | "সমান" | ">" | "<"
 
-expression: STRING   -> string
-          | NUMBER   -> number
-          | variable -> var
-          | function_call -> call
-          | expression "+" expression  -> add
-          | expression "-" expression  -> subtract
-          | "(" expression ")"
+?expression: expression "+" term   -> add
+           | expression "-" term   -> subtract
+           | term
+
+?term: term "/" factor -> divide
+     | term "%" factor -> mod
+     | term "//" factor -> floor_div
+     | term "*" factor -> multiply
+     | factor
+
+?factor: NUMBER         -> number
+       | STRING         -> string
+       | variable       -> var
+       | function_call  -> call
+       | "(" expression ")"   
+       | "[" expression "]"
 
 variable: BENGALI_CNAME
 variable_list: variable ("," variable)*
@@ -138,6 +147,29 @@ class BengaliTransformer(Transformer):
 
     def subtract(self, args):
         return args[0] - args[1]
+    
+    def multiply(self, args):
+        return args[0] * args[1]
+
+    def divide(self, args):
+        if args[1] != 0:
+            return args[0] / args[1]
+        else:
+            raise ZeroDivisionError(" Cannot divide by Zero!")
+
+    def mod(self, args):
+        if args[1] != 0:
+            return args[0] % args[1]
+        else:
+            raise ZeroDivisionError(" Cannot divide by Zero!")
+    
+    # rounds down the output
+    def floor_div(self, args):
+        if args[1] != 0:
+            return args[0] // args[1]
+        else:
+            raise ZeroDivisionError(" Cannot divide by Zero!")
+
 
     def var(self, args):
         var_name = args[0].children[0].value  # Extract variable name from Tree
