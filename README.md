@@ -1,44 +1,47 @@
-![ojogor_banner](https://github.com/user-attachments/assets/0b76432c-ed15-4430-a8dc-0469cb39bae8)
+---
+icon: hand-wave
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-# Ojogor
-Ojogor is a unique, fun, and sarcastic Bengali programming language designed to bring humor to coding. It allows you to write code in Bengali using natural language syntax, making programming more fun and accessible for Bengali speakers.
+# স্বাগতম 🐍
 
-## Features
-- Bengali Syntax: Write your code using Bengali keywords like `দেখাও, যদি, ফাংশন,` and more!
-- Fun & Sarcastic: Ojogor is a language with a twist, making coding less boring.
-- User-Friendly: Simple syntax for both beginners and advanced programmers.
-- Documentation: Full documentation is available to help you get started with Ojogor.
+<figure><img src=".gitbook/assets/ojogor_banner.png" alt=""><figcaption></figcaption></figure>
 
-## Installation
-1. **Download Ojogor:**
-Download the Ojogor installer. [Click here](https://github.com/ratulhasanruhan/Ojogor/raw/refs/heads/main/Output/Ojogor_Installer.exe) for download.
+স্বাগতম **অজগর**-এ, বাংলা ভাষায় তৈরি একটি মজার ও স্যাটায়ারধর্মী প্রোগ্রামিং ভাষা! 🎉
 
+আপনি যদি কোডিং করতে করতে হাসতে চান, প্রোগ্রামিং শেখার নতুন মজা খুঁজে পেতে চান, বা নিজের ভাষায় কোডিং করার স্বাদ নিতে চান – তাহলে **অজগর** আপনার জন্য!
 
-2. **Run the Installer:**
-After downloading, run the installer to install Ojogor on your system. The installer will automatically add the necessary paths and file associations to recognize .og files.
+#### **অজগর কী?**
 
-3. **Start Coding:**
-After installation, you can start coding in Ojogor! Use the .og file extension for your programs.
+**অজগর** হলো একটি সহজ ও ব্যতিক্রমী প্রোগ্রামিং ভাষা, যা বাংলা ভাষায় লিখতে ও বুঝতে সহজ। এটি মজার সিনট্যাক্স, সরল লজিক এবং ব্যবহার-বান্ধব কাঠামো নিয়ে তৈরি।
 
-4. **Run Programs:**
-You can run your .og files directly from your command line or terminal.
+#### **কেন অজগর ব্যবহার করবেন?**
 
-## Usage
-1. Write your code using Bengali syntax and save it with a .og extension.
-2. Use the Ojogor interpreter to run your program.
-3. For example:
+✅ **বাংলা সিনট্যাক্স** – বাংলা ভাষায় কোড লেখার আনন্দ!\
+✅ **সহজ ও সরল** – নতুনদের জন্য পারফেক্ট!\
+✅ **ব্যতিক্রমী ও মজাদার** – প্রোগ্রামিং শেখার নতুন মজা!\
+✅ **ওপেন-সোর্স** – আপনার অবদান রাখতে পারেন!
+
+#### **কীভাবে শুরু করবেন?**
+
+1️⃣ **অজগর ইনস্টল করুন**\
+2️⃣ **প্রথম প্রোগ্রাম লিখুন:**
+
+```og
+দেখাও "হ্যালো, অজগর!"
 ```
-দেখাও("হ্যালো বিশ্ব!")
-```
-## Documentation
-For a detailed guide on using Ojogor, including syntax, functions, and more, please check the full [documentation here](https://ratulhasan.gitbook.io/ojogor/).
 
-## Contributing
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -am 'Add new feature`).
-4. Push to the branch (`git push origin feature-xyz`).
-5. Open a pull request.
+3️⃣ **শেখা শুরু করুন!**
 
-## License
-Ojogor is licensed under the MIT License. See the [LICENSE](https://github.com/ratulhasanruhan/Ojogor/blob/main/LICENSE) file for more information.
+🚀 **আর দেরি কেন? চলুন, কোডিং শুরু করি!** 🚀
+
